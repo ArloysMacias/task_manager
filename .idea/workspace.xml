@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d824a62-29be-4669-b4c4-aff3705a67c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/add_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/addtask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/categories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/editcategories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/edittask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tasks.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -29,15 +38,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="RemoteServers" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.FlaskPythonApp ">
     <configuration name="FlaskPythonApp " type="PythonConfigurationType" factoryName="Python">
       <module name="task_manager" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -45,6 +56,8 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="FLASK_APP" value="app" />
+        <env name="MONGO_URI" value="mongodb+srv://root:6posr3sb@myfirstcluster.2aykg.mongodb.net/myTestDB?retryWrites=true&amp;w=majority" />
+        <env name="MONGO_DBNAME" value="task_manager" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -61,6 +74,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="task_manager" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="MONGO_URI" value="mongodb+srv://root:6posr3sb@myfirstcluster.2aykg.mongodb.net/myTestDB?retryWrites=true&amp;w=majority" />
+        <env name="MONGO_DBNAME" value="task_manager" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.FlaskPythonApp " />
+      <item itemvalue="Python.app" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -72,7 +113,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601582381168</updated>
-      <workItem from="1601582382575" duration="3184000" />
+      <workItem from="1601582382575" duration="24357000" />
+      <workItem from="1601824218065" duration="13225000" />
     </task>
     <servers />
   </component>
@@ -84,34 +126,48 @@
       <screen x="1680" y="-286" width="1920" height="1057" />
     </state>
     <state x="2357" y="-166" key="#app/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601585819073" />
-    <state x="2136" y="-98" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601585978275">
+    <state x="2136" y="-98" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601590237705">
       <screen x="1680" y="-286" width="1920" height="1057" />
     </state>
-    <state x="2136" y="-98" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601585978275" />
-    <state x="2394" y="14" key="EnvironmentVariablesDialog" timestamp="1601585977230">
+    <state x="2136" y="-98" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601590237705" />
+    <state x="2387" y="52" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601843363158">
       <screen x="1680" y="-286" width="1920" height="1057" />
     </state>
-    <state x="2394" y="14" key="EnvironmentVariablesDialog/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601585977230" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601586722373">
+    <state x="2387" y="52" key="#com.intellij.fileTypes.FileTypeChooser/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601843363158" />
+    <state x="2459" y="-48" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1601588166954">
       <screen x="1680" y="-286" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601586722373" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1601586722372">
+    <state x="2459" y="-48" key="#com.intellij.ide.macro.MacrosDialog/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601588166954" />
+    <state x="2394" y="14" key="EnvironmentVariablesDialog" timestamp="1601589229427">
       <screen x="1680" y="-286" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601586722372" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1601586722371">
+    <state x="2394" y="14" key="EnvironmentVariablesDialog/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601589229427" />
+    <state width="1878" height="347" key="GridCell.Tab.0.bottom" timestamp="1601843666689">
       <screen x="1680" y="-286" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601586722371" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1601586722372">
+    <state width="1878" height="437" key="GridCell.Tab.0.bottom/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601638667148" />
+    <state width="1878" height="347" key="GridCell.Tab.0.bottom/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601843666689" />
+    <state width="1878" height="347" key="GridCell.Tab.0.center" timestamp="1601843666687">
       <screen x="1680" y="-286" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601586722372" />
+    <state width="1878" height="437" key="GridCell.Tab.0.center/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601638667147" />
+    <state width="1878" height="347" key="GridCell.Tab.0.center/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601843666687" />
+    <state width="1878" height="347" key="GridCell.Tab.0.left" timestamp="1601843666687">
+      <screen x="1680" y="-286" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="437" key="GridCell.Tab.0.left/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601638667146" />
+    <state width="1878" height="347" key="GridCell.Tab.0.left/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601843666687" />
+    <state width="1878" height="347" key="GridCell.Tab.0.right" timestamp="1601843666688">
+      <screen x="1680" y="-286" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="437" key="GridCell.Tab.0.right/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601638667148" />
+    <state width="1878" height="347" key="GridCell.Tab.0.right/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601843666688" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/task_manager$pytest_in_app_py.coverage" NAME="pytest in app.py Coverage Results" MODIFIED="1601585809177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/task_manager$FlaskPythonApp_.coverage" NAME="FlaskPythonApp  Coverage Results" MODIFIED="1601586722365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/task_manager$FlaskPythonApp_.coverage" NAME="FlaskPythonApp  Coverage Results" MODIFIED="1601843633494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/task_manager$pip3.coverage" NAME="pip Coverage Results" MODIFIED="1601588241203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/task_manager$app.coverage" NAME="app Coverage Results" MODIFIED="1601588525019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/task_manager$debug.coverage" NAME="debug Coverage Results" MODIFIED="1601585774002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/bin" />
   </component>
 </project>

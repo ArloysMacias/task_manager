@@ -105,6 +105,7 @@
       <updated>1601582381168</updated>
       <workItem from="1601582382575" duration="24357000" />
       <workItem from="1601824218065" duration="14195000" />
+      <workItem from="1601845738176" duration="2606000" />
     </task>
     <servers />
   </component>
@@ -116,10 +117,11 @@
       <screen x="1680" y="-286" width="1920" height="1057" />
     </state>
     <state x="2357" y="-166" key="#app/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601585819073" />
-    <state x="2136" y="-98" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601590237705">
+    <state x="2136" y="-98" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601896281638">
       <screen x="1680" y="-286" width="1920" height="1057" />
     </state>
     <state x="2136" y="-98" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601590237705" />
+    <state x="2136" y="-98" key="#com.intellij.execution.impl.EditConfigurationsDialog/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601896281638" />
     <state x="2387" y="52" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601843363158">
       <screen x="1680" y="-286" width="1920" height="1057" />
     </state>
@@ -152,6 +154,10 @@
     </state>
     <state width="1878" height="437" key="GridCell.Tab.0.right/1680.-286.1920.1057/3600.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601638667148" />
     <state width="1878" height="347" key="GridCell.Tab.0.right/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601845717304" />
+    <state x="2333" y="75" key="com.intellij.ide.util.TipDialog" timestamp="1601845760246">
+      <screen x="1680" y="-286" width="1920" height="1057" />
+    </state>
+    <state x="2333" y="75" key="com.intellij.ide.util.TipDialog/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601845760246" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/task_manager$pytest_in_app_py.coverage" NAME="pytest in app.py Coverage Results" MODIFIED="1601585809177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

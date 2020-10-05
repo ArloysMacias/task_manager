@@ -4,16 +4,10 @@ from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
 
 
-
-#import hiddenPassw
-
 app = Flask(__name__)
-app.config["MONGO_DBNAME"]=os.getenv("MONGO_DBNAME")
-app.config ["MONGO_URI"]=os.getenv("MONGO_URI")
-
-#app=hiddenPassw.app
-
-mongo=PyMongo(app)
+app.config["MONGO_DBNAME"] = os.getenv("MONGO_DBNAME")
+app.config["MONGO_URI"] = os.getenv("MONGO_URI")
+mongo = PyMongo(app)
 
 @app.route('/')
 @app.route('/get_tasks')
